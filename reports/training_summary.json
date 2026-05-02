@@ -1,0 +1,28 @@
+{
+  "medical_regressor": {
+    "mae_test_rf": 7.37354024167388,
+    "mae_test_xgboost": 7.124868105397267,
+    "chose": "xgboost"
+  },
+  "learned_fusion_weights": {
+    "feature_order": [
+      "C",
+      "B",
+      "P",
+      "M"
+    ],
+    "default_weights_literature": [
+      0.4,
+      0.15,
+      0.2,
+      0.25
+    ],
+    "learned_weights_l1_logreg": [
+      0.1152,
+      0.1313,
+      0.2509,
+      0.5027
+    ],
+    "note": "Defaults are literature-justified (NIA-AA 2018, Petersen 2004, Frisoni 2010). 'Learned' weights are recovered from the current synthetic labels and are intended for comparison only - they should not replace the defaults until labelled real-cohort data is available."
+  }
+}

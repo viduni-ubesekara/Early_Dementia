@@ -1,0 +1,3 @@
+# Optional: YOLOv8 webcam confusion (Ultralytics). Heavy (torch).
+# pip install -r requirements-confusion.txt
+ultralytics>=8.2.0,<9
