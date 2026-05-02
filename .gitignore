@@ -5,7 +5,7 @@ venv/
 env/
 node_modules/
 frontend/dist/
-*.joblib
+#*.joblib
 .pytest_cache/
 .coverage
 htmlcov/
